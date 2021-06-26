@@ -1,4 +1,4 @@
-# B.TECH-PROJECT
+# WEB BASED DATA RETREIVAL AND MANIPULATION SYSTEM FOR MULTIPLE DATABASES
 The Database interface tool is designed and developed to test the database Connectivity features 
 of JDBC drivers and their supported databases. The tool provides in depth control of the API 
 sequence of the driver. The DBI tool covers all methods defined in the JDBC specification. DBI 
