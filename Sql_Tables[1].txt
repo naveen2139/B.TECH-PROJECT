@@ -1,0 +1,74 @@
+REGISTRATION TABLE
+------------------
+
+
+SQL> create table register135(userno number(10) 
+not null primary key,username varchar2(50) not null,
+password varchar2(15) not null, email varchar2(25) not null,
+address varchar2(60),gender varchar2(5),
+cellno varchar2(20) not null,city varchar2(20));
+
+create table RegisterDetails(userno number(10) 
+not null primary key,username varchar2(50) not null,
+password varchar2(15) not null, email varchar2(25) not null,
+address varchar2(60),gender varchar2(5),
+cellno varchar2(20) not null,city varchar2(20));
+
+DESC ABOUT REGISTRATION TABLE
+-----------------------------
+
+
+SQL> desc registerdetails;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ USERNO                                    NOT NULL NUMBER(10)
+ USERNAME                                  NOT NULL VARCHAR2(255)
+ PASSWORD                                  NOT NULL VARCHAR2(255)
+ EMAIL                                     NOT NULL VARCHAR2(50)
+ ADDRESS                                            VARCHAR2(255)
+ GENDER                                    NOT NULL VARCHAR2(5)
+ CELLNO                                    NOT NULL VARCHAR2(20)
+ CITY                                               VARCHAR2(255)
+
+
+SAVECOLUMNDATA
+--------------
+
+
+SQL> create table savecolumndata(colname varchar2(30),coltype varchar2(30),
+colsize number(30),colcons varchar2(15));
+
+create table savecolumndet(colname varchar2(30),coltype varchar2(30),
+colsize number(30),colcons varchar2(15));
+
+DESC ABOUT SAVECOLUMNDATA
+-------------------------
+
+
+SQL> DESC savecolumndet;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ COLNAME                                            VARCHAR2(30)
+ COLTYPE                                            VARCHAR2(10)
+ COLSIZE                                            NUMBER(30)
+ COLCONS                                            VARCHAR2(15)
+
+
+
+
+
+
+create table RegisterDetails(userno numeric(10) 
+not null primary key,username varchar(50) not null,
+password varchar(15) not null, email varchar(25) not null,
+address varchar(60),gender varchar(5),
+cellno varchar(20) not null,city varchar(20));
+
+
+
+
+
+
+
+create table savecolumndet(colname varchar(30),coltype varchar(30),
+colsize numeric(30),colcons varchar(15));

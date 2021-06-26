@@ -1,0 +1,70 @@
+<%@ page language="java" import="java.util.*" pageEncoding="ISO-8859-1"%>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <HEAD>
+
+<SCRIPT LANGUAGE="JavaScript">
+function validate_required(field,alerttxt)
+{
+with (field)
+  {
+  if (value==null||value=="")
+    {
+    alert(alerttxt);return false;
+    }
+  else
+    {
+    return true;
+    }
+  }
+}
+  function validate_form(thisform)
+{
+with (thisform)
+  {
+    if (validate_required(dbname,"Database name must be filled out!")==false)
+      {
+        dbname.focus();return false;
+      }
+    if (validate_required(compname,"System naem must be filled out!")==false)
+      {
+        compname.focus();return false;
+      }
+    if (validate_required(sid,"sid must be filled out!")==false)
+      {
+        sid.focus();return false;
+      }
+    if (validate_required(user,"user must be filled out!")==false)
+      {
+        user.focus();return false;
+      }
+     if (validate_required(password,"password must be filled out!")==false)
+      {
+        password.focus();return false;
+      }
+      
+   }
+}
+</script>
+</HEAD>
+  <body bgcolor="blanchedalmond">
+    <form name="DbDetails" action="MakeConnection" method="get" onSubmit="return validate_form(this)">
+    <center>
+    <table border="2">
+    <tr><td><b>DB NAME :</b></td><td><input type="text" name="dbname"/></td></tr>
+    <tr><td><b>COMPUTER NAME :</b></td><td><input type="text" name="compname"/></td></tr>
+    <tr><td><b>SID :</b></td><td><input type="text" name="sid"/></td></tr>
+    <tr><td><b>USER : </b></td><td><input type="text" name="user"/></td></tr>
+    <tr><td><b>PASSWORD :</b></td><td><input type="password" name="password"/></td></tr>
+    <tr><td><input type="submit" name="submit" value="ConncetDB"/>
+    <input type="reset" value="Clear"/></td></tr>
+    </table>
+    </center>
+    </form>
+  </body>
+</html>

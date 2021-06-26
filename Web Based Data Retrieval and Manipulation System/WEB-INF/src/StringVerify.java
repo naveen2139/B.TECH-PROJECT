@@ -1,0 +1,222 @@
+package constants;
+
+public class StringVerify {
+	
+		public int Rows(char c){
+		int j=0;	
+			
+		 if(c=='A'){
+		    	j=1;
+		    }
+		   else
+		   if(c=='B'){
+		    		j=2;
+		    	}
+		   else
+		   if(c=='C'){
+				    	j=3;
+				    }
+		   else
+		   if(c=='D'){
+				    		j=4;
+				    	}
+		   else
+		   if(c=='E'){
+					j=5;
+					}
+		   else
+		   if(c=='F'){
+					j=6;
+					}
+		   else
+			if(c=='G'){
+					  	j=7;
+				   }
+		  else
+		  if(c=='H'){
+	    		j=8;
+			   	}
+		  else
+		  if(c=='I'){
+				   	j=9; }
+		  else
+		  if(c=='J'){
+				j=10;
+				}
+		  else
+		  if(c=='K'){
+				j=11;
+				 }
+		  else
+		  if(c=='L'){
+				j=12;
+					}
+		  else
+		  if(c=='M'){
+					j=13;
+			 }
+		  else
+		if(c=='N'){
+				j=14;
+				}
+		else
+				if(c=='O'){
+				j=15;
+				}
+		else
+																    	
+		if(c=='P'){
+			j=16;
+			}
+		else
+		if(c=='Q'){
+			j=17;
+			 }
+			 else
+			if(c=='R'){
+			j=18;
+			}
+		else
+			if(c=='S'){
+			j=19;
+			 }
+		else
+			if(c=='T'){
+				j=20;
+			}
+	  else if(c=='U'){
+			j=21;
+			}
+		 else
+		if(c=='V'){
+		j=22;
+			}
+	else
+	if(c=='W'){
+		j=23;
+		}
+else
+			if(c=='X'){
+	j=24;
+	}
+		else
+if(c=='Y'){
+			j=25;
+		}
+	else
+if(c=='Z'){
+j=26;
+  	}
+else
+	if(c=='a'){
+    	j=27;
+    }
+   else
+   if(c=='b'){
+    		j=28;
+    	}
+   else
+   if(c=='c'){
+		    	j=29;
+		    }
+   else
+   if(c=='d'){
+		    		j=30;
+		    	}
+   else
+   if(c=='e'){
+			j=31;
+			}
+   else
+   if(c=='f'){
+			j=32;
+			}
+   else
+	if(c=='g'){
+			  	j=33;
+		   }
+  else
+  if(c=='h'){
+		j=34;
+	   	}
+  else
+  if(c=='i'){
+		   	j=35; }
+  else
+  if(c=='j'){
+		j=36;
+		}
+  else
+  if(c=='k'){
+		j=37;
+		 }
+  else
+  if(c=='l'){
+		j=38;
+			}
+  else
+  if(c=='m'){
+			j=39;
+	 }
+  else
+if(c=='n'){
+		j=40;
+		}
+else
+		if(c=='o'){
+		j=41;
+		}
+else
+														    	
+if(c=='p'){
+	j=42;
+	}
+else
+if(c=='q'){
+	j=43;
+	 }
+	 else
+	if(c=='r'){
+	j=44;
+	}
+else
+	if(c=='s'){
+	j=45;
+	 }
+else
+	if(c=='t'){
+		j=46;
+	}
+else if(c=='u'){
+	j=47;
+	}
+ else
+if(c=='v'){
+j=48;
+	}
+else
+if(c=='w'){
+j=49;
+}
+else
+	if(c=='x'){
+j=50;
+}
+else
+if(c=='y'){
+	j=51;
+}
+else
+if(c=='z'){
+j=52;
+}
+return j;
+		}
+	}
+			
+	
+		
+		
+		
+		
+		
